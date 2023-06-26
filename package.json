@@ -8,6 +8,7 @@
     "run": "node src/server.js",
     "run:watch": "nodemon src/server.js --watch src",
     "start": "npm run run:watch"
+	"build": "node src/server.js"
   },
   "author": "Antonio Siqueira",
   "license": "ISC",
