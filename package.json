@@ -1,0 +1,25 @@
+{
+  "name": "FloodFill-Backend-WebApi",
+  "version": "1.0.0",
+  "description": "A REST service for managing floodfills",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run": "node src/server.js",
+    "run:watch": "nodemon src/server.js --watch src",
+    "start": "npm run run:watch"
+  },
+  "author": "Antonio Siqueira",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "express-openapi-validator": "^4.12.11",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
