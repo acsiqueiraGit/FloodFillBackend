@@ -1,5 +1,5 @@
 {
-  "name": "FloodFill-Backend-WebApi",
+  "name": "FloodFillBackendWebApi",
   "version": "1.0.0",
   "description": "A REST service for managing floodfills",
   "private": true,
@@ -7,15 +7,15 @@
   "scripts": {
     "run": "node src/server.js",
     "run:watch": "nodemon src/server.js --watch src",
-    "start": "npm run run:watch"
-	"build": "node src/server.js"
+    "start": "npm run run:watch",
+    "build": "node src/server.js"
   },
   "author": "Antonio Siqueira",
   "license": "ISC",
-  "engines": { 
+  "engines": {
     "npm": ">=7.0.0",
     "node": ">=16.0.0"
-  },  
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
