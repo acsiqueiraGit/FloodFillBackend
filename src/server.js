@@ -9,7 +9,8 @@ import { FloodFillsService } from './services/floodfills-service.js';
 import { FloodFillsController } from './controllers/floodfills-controller.js';
 
 const app = express();
-const port = 3000;
+// use port 3000 unless there exists a preconfigured port
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
