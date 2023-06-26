@@ -11,6 +11,10 @@
   },
   "author": "Antonio Siqueira",
   "license": "ISC",
+  "engines": { 
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
+  },  
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
